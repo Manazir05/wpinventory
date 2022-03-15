@@ -1,0 +1,33 @@
+2022-03-12T10:58:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_name() in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\themes\wordpressy\index.php:18
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\themes\wordpressy\index.php on line 18
+
+2022-03-12T11:10:37+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\themes\wordpressy\index.php:20
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\themes\wordpressy\index.php on line 20
+
+2022-03-12T11:44:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_metadata(), 1 passed in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\themes\wordpressy\index.php on line 17 and at least 2 expected in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\meta.php:571
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\themes\wordpressy\index.php(17): get_metadata('requisitions')
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\meta.php on line 571
+
+2022-03-12T11:53:32+00:00 CRITICAL Uncaught Error: Undefined constant "department" in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\themes\wordpressy\index.php:17
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\themes\wordpressy\index.php on line 17
+

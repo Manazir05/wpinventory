@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wp-content/plugins/profitori/widget/build/static/css/main.65cc680c.chunk.css",
+    "main.js": "/wp-content/plugins/profitori/widget/build/static/js/main.ed6d2208.chunk.js",
+    "main.js.map": "/wp-content/plugins/profitori/widget/build/static/js/main.ed6d2208.chunk.js.map",
+    "runtime-main.js": "/wp-content/plugins/profitori/widget/build/static/js/runtime-main.f2f71c94.js",
+    "runtime-main.js.map": "/wp-content/plugins/profitori/widget/build/static/js/runtime-main.f2f71c94.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/wp-content/plugins/profitori/widget/build/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.355ca79d.chunk.js": "/wp-content/plugins/profitori/widget/build/static/js/2.355ca79d.chunk.js",
+    "static/js/2.355ca79d.chunk.js.map": "/wp-content/plugins/profitori/widget/build/static/js/2.355ca79d.chunk.js.map",
+    "index.html": "/wp-content/plugins/profitori/widget/build/index.html",
+    "precache-manifest.0a628f812c5ee676bab554304e752d10.js": "/wp-content/plugins/profitori/widget/build/precache-manifest.0a628f812c5ee676bab554304e752d10.js",
+    "service-worker.js": "/wp-content/plugins/profitori/widget/build/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/wp-content/plugins/profitori/widget/build/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.65cc680c.chunk.css.map": "/wp-content/plugins/profitori/widget/build/static/css/main.65cc680c.chunk.css.map",
+    "static/media/Inventory.js~": "/wp-content/plugins/profitori/widget/build/static/media/Inventory.d41d8cd9.js~"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2f71c94.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.355ca79d.chunk.js",
+    "static/css/main.65cc680c.chunk.css",
+    "static/js/main.ed6d2208.chunk.js"
+  ]
+}

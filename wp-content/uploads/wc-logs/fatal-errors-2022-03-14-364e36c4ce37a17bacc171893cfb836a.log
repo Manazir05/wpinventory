@@ -1,0 +1,283 @@
+2022-03-14T03:46:34+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:156
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(58): apply_filters('acf/load_field', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 156
+
+2022-03-14T03:46:46+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:156
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(58): apply_filters('acf/load_field', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 156
+
+2022-03-14T03:49:18+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:156
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(58): apply_filters('acf/load_field', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 156
+
+2022-03-14T03:50:53+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:150
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(58): apply_filters('acf/load_field', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 150
+
+2022-03-14T03:51:37+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: array + int in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:154
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(58): apply_filters('acf/load_field', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 154
+
+2022-03-14T03:51:53+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: stdClass + int in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:154
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(58): apply_filters('acf/load_field', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 154
+
+2022-03-14T03:52:08+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T03:52:57+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T03:53:18+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T03:54:44+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T03:55:08+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T03:57:26+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T03:57:57+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T04:00:29+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T04:01:24+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T04:01:39+00:00 CRITICAL Uncaught TypeError: Illegal offset type in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php:301
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(62): ACF_Data->alias('field_622ea6fb6...', 306, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(371): acf_get_field(306)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php(522): acf_get_fields(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): acf_admin_field_group->mb_fields(Object(WP_Post), Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\class-acf-data.php on line 301
+
+2022-03-14T04:24:59+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: array + int in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:153
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(233): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-hook-functions.php(109): apply_filters_ref_array('acf/prepare_fie...', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): _acf_apply_hook_variations(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(556): apply_filters('acf/prepare_fie...', Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(648): acf_prepare_field(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(613): acf_render_field_wrap(Array, 'div', 'label')
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php(218): acf_render_fields(Array, 327, 'div', 'label')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): ACF_Form_Post->render_meta_box(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 153
+
+2022-03-14T04:42:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Custom_Column::cps_acf_read_only_field(), 1 passed in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:142
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(233): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-hook-functions.php(109): apply_filters_ref_array('acf/prepare_fie...', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): _acf_apply_hook_variations(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(556): apply_filters('acf/prepare_fie...', Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(648): acf_prepare_field(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(613): acf_render_field_wrap(Array, 'div', 'label')
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php(218): acf_render_fields(Array, 339, 'div', 'label')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): ACF_Form_Post->render_meta_box(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 142
+
+2022-03-14T04:42:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Custom_Column::cps_acf_read_only_field(), 1 passed in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:142
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(233): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-hook-functions.php(109): apply_filters_ref_array('acf/prepare_fie...', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): _acf_apply_hook_variations(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(556): apply_filters('acf/prepare_fie...', Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(648): acf_prepare_field(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(613): acf_render_field_wrap(Array, 'div', 'label')
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php(218): acf_render_fields(Array, 340, 'div', 'label')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): ACF_Form_Post->render_meta_box(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 142
+
+2022-03-14T04:43:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Custom_Column::cps_acf_read_only_field(), 1 passed in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:142
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(233): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-hook-functions.php(109): apply_filters_ref_array('acf/prepare_fie...', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): _acf_apply_hook_variations(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(556): apply_filters('acf/prepare_fie...', Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(648): acf_prepare_field(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(613): acf_render_field_wrap(Array, 'div', 'label')
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php(218): acf_render_fields(Array, 341, 'div', 'label')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): ACF_Form_Post->render_meta_box(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 142
+
+2022-03-14T04:43:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Custom_Column::cps_acf_read_only_field(), 1 passed in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:142
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_acf_read_only_field(Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(233): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-hook-functions.php(109): apply_filters_ref_array('acf/prepare_fie...', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): _acf_apply_hook_variations(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(556): apply_filters('acf/prepare_fie...', Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(648): acf_prepare_field(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(613): acf_render_field_wrap(Array, 'div', 'label')
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php(218): acf_render_fields(Array, 342, 'div', 'label')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): ACF_Form_Post->render_meta_box(Object(WP_Post), Array)
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post-new.php(75): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 142
+
+2022-03-14T06:16:11+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:677
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php(613): acf_render_field_wrap(' &mdash; <span ...', 'div', 'label')
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php(218): acf_render_fields(Array, 358, 'div', 'label')
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\template.php(1395): ACF_Form_Post->render_meta_box(Object(WP_Post), Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\post.php(206): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 677
+
