@@ -1,0 +1,155 @@
+2022-03-28T05:05:44+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Custom_Api::pluginname_register_api_endpoints() cannot be called statically in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(379): rest_get_server()
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(758): WP->parse_request('')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\functions.php(1310): WP->main('')
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-28T05:06:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Custom_Api::pluginname_register_api_endpoints() cannot be called statically in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(379): rest_get_server()
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(758): WP->parse_request('')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\functions.php(1310): WP->main('')
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-28T05:16:26+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\custom_api.php:51
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Api::pluginname_register_api_endpoints(Object(WP_REST_Server))
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(379): rest_get_server()
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(758): WP->parse_request('')
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\functions.php(1310): WP->main('')
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(16): wp()
+#12 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\custom_api.php on line 51
+
+2022-03-28T05:18:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_requisitions() in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\custom_api.php:34
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api\class-wp-rest-server.php(1141): Custom_Api::procurement_get_all_requisitions(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/custom_procure...', Array, NULL)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(386): WP_REST_Server->serve_request('/custom_procure...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(758): WP->parse_request('')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\functions.php(1310): WP->main('')
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\custom_api.php on line 34
+
+2022-03-28T05:18:33+00:00 CRITICAL Uncaught Error: Undefined constant "self" in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\custom_api.php:51
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Api::pluginname_register_api_endpoints(Object(WP_REST_Server))
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(379): rest_get_server()
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(758): WP->parse_request('')
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\functions.php(1310): WP->main('')
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(16): wp()
+#12 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\custom_api.php on line 51
+
+2022-03-28T07:10:19+00:00 CRITICAL Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:126
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php(126): explode(',', Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_fill_posts_columns('department', 356)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(1350): do_action('manage_requisit...', 'department', 356)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1450): WP_Posts_List_Table->column_default(Object(WP_Post), 'department')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(1384): WP_List_Table->single_row_columns(Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(795): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(772): WP_Posts_List_Table->_display_rows(Array, 0)
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1362): WP_Posts_List_Table->display_rows()
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1289): WP_List_Table->display_rows_or_placeholder()
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit.php(477): WP_List_Table->display()
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 126
+
+2022-03-28T07:13:40+00:00 CRITICAL Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:64
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php(64): implode(', ', NULL)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_fill_posts_columns('product_name', 356)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(1350): do_action('manage_requisit...', 'product_name', 356)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1450): WP_Posts_List_Table->column_default(Object(WP_Post), 'product_name')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(1384): WP_List_Table->single_row_columns(Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(795): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(772): WP_Posts_List_Table->_display_rows(Array, 0)
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1362): WP_Posts_List_Table->display_rows()
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1289): WP_List_Table->display_rows_or_placeholder()
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit.php(477): WP_List_Table->display()
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 64
+
+2022-03-28T07:13:56+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:64
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php(64): implode(', ', 'Gadget-1')
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_fill_posts_columns('product_name', 356)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(1350): do_action('manage_requisit...', 'product_name', 356)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1450): WP_Posts_List_Table->column_default(Object(WP_Post), 'product_name')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(1384): WP_List_Table->single_row_columns(Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(795): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(772): WP_Posts_List_Table->_display_rows(Array, 0)
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1362): WP_Posts_List_Table->display_rows()
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1289): WP_List_Table->display_rows_or_placeholder()
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit.php(477): WP_List_Table->display()
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 64
+
+2022-03-28T07:16:55+00:00 CRITICAL Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php:65
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php(65): implode(', ', 'Gadget-1')
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): Custom_Column::cps_fill_posts_columns('product_name', 356)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(1350): do_action('manage_requisit...', 'product_name', 356)
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1450): WP_Posts_List_Table->column_default(Object(WP_Post), 'product_name')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(1384): WP_List_Table->single_row_columns(Object(WP_Post))
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(795): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-posts-list-table.php(772): WP_Posts_List_Table->_display_rows(Array, 0)
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1362): WP_Posts_List_Table->display_rows()
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\includes\class-wp-list-table.php(1289): WP_List_Table->display_rows_or_placeholder()
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit.php(477): WP_List_Table->display()
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\column_customize.php on line 65
+

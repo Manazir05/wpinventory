@@ -1,0 +1,93 @@
+2022-03-20T15:58:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wpdocs_custom_post_status" not found or invalid function name in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-20T15:58:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wpdocs_custom_post_status" not found or invalid function name in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-20T15:59:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Custom_Column::cps_custom_post_status() cannot be called statically in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-20T15:59:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Custom_Column::cps_custom_post_status() cannot be called statically in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\plugin-install.php(16): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-20T15:59:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Custom_Column::cps_custom_post_status() cannot be called statically in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-20T15:59:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Custom_Column::cps_custom_post_status() cannot be called statically in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-20T16:38:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Custom_Column::cps_custom_post_status() cannot be called statically in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
+2022-03-20T16:38:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, non-static method Custom_Column::cps_custom_post_status() cannot be called statically in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php on line 307
+
