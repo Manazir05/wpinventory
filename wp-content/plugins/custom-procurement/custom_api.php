@@ -56,7 +56,6 @@ class Custom_Api {
                     'requisition_id' => get_post_meta( $post->ID , 'requisition_id', true ),
                     'title' => $post->post_title,
                     'author' => get_the_author_meta( 'display_name', $post->post_author ),
-                    'content' => apply_filters( 'the_content', $post->post_content ),
                     'products' => $product_data,
                     'departments' => $department_list,
                     'total_number' => get_post_meta( $post->ID, 'total_number', true ),
@@ -115,7 +114,6 @@ class Custom_Api {
                     'requisition_id' => get_post_meta( $post->ID , 'requisition_id', true ),
                     'title' => $post->post_title,
                     'author' => get_the_author_meta( 'display_name', $post->post_author ),
-                    'content' => apply_filters( 'the_content', $post->post_content ),
                     'products' => $product_data,
                     'departments' => $department_list,
                     'total_number' => get_post_meta( $post->ID, 'total_number', true ),
@@ -176,7 +174,6 @@ class Custom_Api {
                         'requisition_id' => get_post_meta( $post->ID , 'requisition_id', true ),
                         'title' => $post->post_title,
                         'author' => get_the_author_meta( 'display_name', $post->post_author ),
-                        'content' => apply_filters( 'the_content', $post->post_content ),
                         'products' => $product_data,
                         'departments' => $department_list,
                         'total_number' => get_post_meta( $post->ID, 'total_number', true ),
@@ -195,7 +192,7 @@ class Custom_Api {
         return $items;
     }
 
-    public static function pluginname_register_api_endpoints() {
+    public static function custom_procurement_register_api_endpoints() {
         register_rest_route( 'custom_procurement/v1', '/requisitions', array(
           'methods' => 'GET',
           'callback' => __CLASS__ . '::procurement_get_all_requisitions',

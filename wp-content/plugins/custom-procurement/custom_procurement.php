@@ -42,4 +42,4 @@ add_action('admin_footer-post.php', array('Custom_Column','my_custom_status_add_
 add_action('admin_footer-post-new.php', array('Custom_Column','my_custom_status_add_in_post_page'));
 
 add_filter('rest_route_for_post', array('Custom_Api','my_plugin_rest_route_for_post'), 10, 2 );
-add_action('rest_api_init', array('Custom_Api','pluginname_register_api_endpoints') );
+add_action('rest_api_init', array('Custom_Api','custom_procurement_register_api_endpoints') );
