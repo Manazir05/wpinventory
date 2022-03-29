@@ -28,7 +28,10 @@ require_once( PROCUREMENT__PLUGIN_DIR . 'custom_api.php' );
 include_once( ABSPATH . "wp-config.php");
 include_once( ABSPATH . "wp-includes/wp-db.php");
 
-
+function remove_footer_admin () {
+	echo 'Procurement & Inventory Management by SEBPO Development team.';
+}
+add_filter('admin_footer_text', 'remove_footer_admin');
 
 add_filter( 'manage_requisitions_posts_columns', array('Custom_Column', 'cps_filter_posts_columns') );
 add_action( 'manage_requisitions_posts_custom_column', array('Custom_Column', 'cps_fill_posts_columns'), 10, 2);
