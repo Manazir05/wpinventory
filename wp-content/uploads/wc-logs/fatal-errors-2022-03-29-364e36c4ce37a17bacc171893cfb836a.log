@@ -1,0 +1,17 @@
+2022-03-29T03:29:28+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\custom_api.php:81
+Stack trace:
+#0 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api\class-wp-rest-server.php(1141): Custom_Api::procurement_by_requisition_id(Object(WP_REST_Request))
+#1 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/custom_procure...', Array, NULL)
+#2 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\rest-api.php(386): WP_REST_Server->serve_request('/custom_procure...')
+#4 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#5 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#8 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\class-wp.php(758): WP->parse_request('')
+#9 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-includes\functions.php(1310): WP->main('')
+#10 C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-blog-header.php(16): wp()
+#11 C:\xampp\htdocs\sebpo_project\sebpoinventory\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\sebpo_project\sebpoinventory\wp-content\plugins\custom-procurement\custom_api.php on line 81
+

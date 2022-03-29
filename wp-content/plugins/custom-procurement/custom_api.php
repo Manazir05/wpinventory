@@ -71,11 +71,20 @@ class Custom_Api {
         return $items;
     }
 
-    public static function procurement_requisition_by_id( $data ) {
+    public static function procurement_by_requisition_id( $data ) {
 
-        $post_id = $data['id'];
-        $post = get_post( $post_id );
+        $requisition_id = $data['requisition_id'];       
         $items = array();
+        $post_id = 0;
+        
+        global $wpdb; 
+        $sql = "SELECT post_id FROM wp_postmeta WHERE meta_key='requisition_id' AND meta_value={$requisition_id} ";
+        $results = $wpdb->get_results($sql);
+        foreach($results as $result) {
+            $post_id = $result->post_id;
+        }
+        
+        $post = get_post( $post_id ); 
 
         if ( $post && $post->post_type == 'requisitions' ) {            
 
@@ -191,9 +200,9 @@ class Custom_Api {
           'methods' => 'GET',
           'callback' => __CLASS__ . '::procurement_get_all_requisitions',
         ) );
-        register_rest_route( 'custom_procurement/v1', '/requisitions/(?P<id>\d+)', array(
+        register_rest_route( 'custom_procurement/v1', '/requisitions/(?P<requisition_id>\d+)', array(
           'methods' => 'GET',
-          'callback' => __CLASS__ . '::procurement_requisition_by_id',
+          'callback' => __CLASS__ . '::procurement_by_requisition_id',
         ) );
         register_rest_route( 'custom_procurement/v1', '/requisitions/status=(?P<status>[a-zA-Z-]+)', array(
             'methods' => 'GET',
