@@ -189,14 +189,17 @@ class Custom_Api {
         register_rest_route( 'custom_procurement/v1', '/requisitions', array(
           'methods' => 'GET',
           'callback' => __CLASS__ . '::procurement_get_all_requisitions',
+          'permission_callback' => '__return_true'
         ) );
         register_rest_route( 'custom_procurement/v1', '/requisitions/(?P<requisition_id>\d+)', array(
           'methods' => 'GET',
           'callback' => __CLASS__ . '::procurement_by_requisition_id',
+          'permission_callback' => '__return_true'
         ) );
         register_rest_route( 'custom_procurement/v1', '/requisitions/status=(?P<status>[a-zA-Z-]+)', array(
             'methods' => 'GET',
             'callback' => __CLASS__ . '::procurement_requisitions_by_status',
+            'permission_callback' => '__return_true'
         ) );
     }
        
