@@ -9,14 +9,6 @@ class Custom_Api {
         $wp_post_types['requisitions']->show_in_rest = true;
     }
 
-    // public static function my_plugin_rest_route_for_post( $route, $post ) {
-    //     if ( $post->post_type === 'requisitions' ) {
-    //         $route = '/wp/v2/requisitions/' . $post->ID;
-    //     }     
-    //     return $route;
-    // }
-
-
     public static function procurement_get_all_requisitions() {
         $args = array (
             'post_type' => 'requisitions',
@@ -191,6 +183,7 @@ class Custom_Api {
 
         return $items;
     }
+
 
     public static function custom_procurement_register_api_endpoints() {
         register_rest_route( 'custom_procurement/v1', '/requisitions', array(

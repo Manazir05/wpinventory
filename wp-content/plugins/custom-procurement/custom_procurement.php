@@ -37,12 +37,12 @@ add_filter( 'manage_requisitions_posts_columns', array('Custom_Column', 'cps_fil
 add_action( 'manage_requisitions_posts_custom_column', array('Custom_Column', 'cps_fill_posts_columns'), 10, 2);
 add_filter( 'acf/prepare_field/name=requisition_id', array('Custom_Column','cps_acf_read_only_field'), 10 , 2 );
 
-add_action( 'init', array('Custom_Api','add_requisitions_to_json_api'));
 add_action( 'init',  array('Custom_Column','cps_custom_post_status'));
 // Using jQuery to add it to post status dropdown
 add_action('admin_footer-edit.php',array('Custom_Column','my_custom_status_add_in_quick_edit'));
 add_action('admin_footer-post.php', array('Custom_Column','my_custom_status_add_in_post_page'));
 add_action('admin_footer-post-new.php', array('Custom_Column','my_custom_status_add_in_post_page'));
 
-add_filter('rest_route_for_post', array('Custom_Api','my_plugin_rest_route_for_post'), 10, 2 );
-add_action('rest_api_init', array('Custom_Api','custom_procurement_register_api_endpoints') );
+// Inventory: REST API
+add_action( 'init', array('Custom_Api','add_requisitions_to_json_api'));
+add_action( 'rest_api_init', array('Custom_Api','custom_procurement_register_api_endpoints') );
