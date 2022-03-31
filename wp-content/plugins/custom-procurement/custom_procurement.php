@@ -25,13 +25,14 @@ define( 'PROCUREMENT__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 require_once( PROCUREMENT__PLUGIN_DIR . 'column_customize.php' );
 require_once( PROCUREMENT__PLUGIN_DIR . 'custom_api.php' );
+require_once( PROCUREMENT__PLUGIN_DIR . 'custom_menu.php' );
 include_once( ABSPATH . "wp-config.php");
 include_once( ABSPATH . "wp-includes/wp-db.php");
 
-function remove_footer_admin () {
+function cps_remove_footer_admin () {
 	echo 'Procurement & Inventory Management by SEBPO Development team.';
 }
-add_filter('admin_footer_text', 'remove_footer_admin');
+add_filter('admin_footer_text', 'cps_remove_footer_admin');
 
 add_filter( 'manage_requisitions_posts_columns', array('Custom_Column', 'cps_filter_posts_columns') );
 add_action( 'manage_requisitions_posts_custom_column', array('Custom_Column', 'cps_fill_posts_columns'), 10, 2);
@@ -39,10 +40,13 @@ add_filter( 'acf/prepare_field/name=requisition_id', array('Custom_Column','cps_
 
 add_action( 'init',  array('Custom_Column','cps_custom_post_status'));
 // Using jQuery to add it to post status dropdown
-add_action('admin_footer-edit.php',array('Custom_Column','my_custom_status_add_in_quick_edit'));
-add_action('admin_footer-post.php', array('Custom_Column','my_custom_status_add_in_post_page'));
-add_action('admin_footer-post-new.php', array('Custom_Column','my_custom_status_add_in_post_page'));
+add_action('admin_footer-edit.php', array('Custom_Column','cps_custom_status_add_in_quick_edit'));
+add_action('admin_footer-post.php', array('Custom_Column','cps_custom_status_add_in_post_page'));
+add_action('admin_footer-post-new.php', array('Custom_Column','cps_custom_status_add_in_post_page'));
 
 // Inventory: REST API
-add_action( 'init', array('Custom_Api','add_requisitions_to_json_api'));
-add_action( 'rest_api_init', array('Custom_Api','custom_procurement_register_api_endpoints') );
+add_action( 'init', array('Custom_Api','cps_add_requisitions_to_json_api'));
+add_action( 'rest_api_init', array('Custom_Api','cps_custom_procurement_register_api_endpoints') );
+
+// wp-admin menu customize
+add_action( 'admin_menu', array('Custom_Menu','cps_remove_menus_for_demo_user') );

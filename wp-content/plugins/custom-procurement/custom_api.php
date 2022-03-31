@@ -4,12 +4,12 @@
 class Custom_Api {
 
 
-    public static function add_requisitions_to_json_api(){
+    public static function cps_add_requisitions_to_json_api(){
         global $wp_post_types;
         $wp_post_types['requisitions']->show_in_rest = true;
     }
 
-    public static function procurement_get_all_requisitions() {
+    public static function cps_procurement_get_all_requisitions() {
         $args = array (
             'post_type' => 'requisitions',
             'post_status' => array('publish', 'pending', 'draft', 'future', 'private', 'inherit', 'trash','req-cancel','approved')
@@ -62,7 +62,7 @@ class Custom_Api {
         return $items;
     }
 
-    public static function procurement_by_requisition_id( $data ) {
+    public static function cps_procurement_by_requisition_id( $data ) {
 
         $requisition_id = $data['requisition_id'];       
         $items = array();
@@ -123,7 +123,7 @@ class Custom_Api {
 
     }
 
-    public static function procurement_requisitions_by_status ( WP_REST_Request $request ) {
+    public static function cps_procurement_requisitions_by_status ( WP_REST_Request $request ) {
         
         $status = $request->get_param( 'status' );
         $args = array (
@@ -184,8 +184,7 @@ class Custom_Api {
         return $items;
     }
 
-
-    public static function custom_procurement_register_api_endpoints() {
+    public static function cps_custom_procurement_register_api_endpoints() {
         register_rest_route( 'custom_procurement/v1', '/requisitions', array(
           'methods' => 'GET',
           'callback' => __CLASS__ . '::procurement_get_all_requisitions',
@@ -202,6 +201,7 @@ class Custom_Api {
             'permission_callback' => '__return_true'
         ) );
     }
+
        
       
 }

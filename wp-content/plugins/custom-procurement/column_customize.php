@@ -160,7 +160,7 @@ class Custom_Column {
         ));
     }    
 
-    public static function my_custom_status_add_in_quick_edit() {
+    public static function cps_custom_status_add_in_quick_edit() {
         echo "<script>
         jQuery(document).ready( function() {
             jQuery( 'select[name=\"_status\"]' ).append( '<option value=\"approved\">Approved</option>' );      
@@ -168,7 +168,7 @@ class Custom_Column {
         </script>";
     }
     
-    public static function my_custom_status_add_in_post_page() {
+    public static function cps_custom_status_add_in_post_page() {
         echo "<script>
         jQuery(document).ready( function() {        
             jQuery( 'select[name=\"post_status\"]' ).append( '<option value=\"approved\">Approved</option>' );
