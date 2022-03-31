@@ -10,7 +10,7 @@ class Custom_Menu {
             // $roles = $user->roles;
 
             // check all menu slugs
-            //echo '<pre>' . print_r( $GLOBALS[ 'menu' ], TRUE) . '</pre>';
+            // echo '<pre>' . print_r( $GLOBALS[ 'menu' ], TRUE) . '</pre>';
             
             $user_id = get_current_user_id();
 
