@@ -1,0 +1,36 @@
+2022-04-08T02:53:32+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-content/plugins/custom-procurement/custom_api.php:190
+Stack trace:
+#0 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp-hook.php(307): Custom_Api::cps_custom_procurement_register_api_endpoints(Object(WP_REST_Server))
+#1 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/rest-api.php(379): rest_get_server()
+#5 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#6 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp.php(396): do_action_ref_array('parse_request', Array)
+#9 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp.php(758): WP->parse_request('')
+#10 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/functions.php(1310): WP->main('')
+#11 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-blog-header.php(16): wp()
+#12 /opt/lampp/htdocs/sebpo_projects/wpinventory/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-content/plugins/custom-procurement/custom_api.php on line 190
+
+2022-04-08T04:26:35+00:00 CRITICAL Uncaught Error: Undefined constant WP_REST_Server::CREATEABLE in /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-content/plugins/custom-procurement/custom_api.php:206
+Stack trace:
+#0 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp-hook.php(307): Custom_Api::cps_custom_procurement_register_api_endpoints(Object(WP_REST_Server))
+#1 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/rest-api.php(553): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/rest-api.php(379): rest_get_server()
+#5 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#6 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp.php(396): do_action_ref_array('parse_request', Array)
+#9 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/class-wp.php(758): WP->parse_request('')
+#10 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-includes/functions.php(1310): WP->main('')
+#11 /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-blog-header.php(16): wp()
+#12 /opt/lampp/htdocs/sebpo_projects/wpinventory/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/sebpo_projects/wpinventory/wp-content/plugins/custom-procurement/custom_api.php on line 206
+

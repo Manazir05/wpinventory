@@ -9,6 +9,23 @@ class Custom_Api {
         $wp_post_types['requisitions']->show_in_rest = true;
     }
 
+    public static function cps_procurement_login_user( WP_REST_Request $request ) {
+        // I try this:
+        // wp_set_current_user(1);
+        // wp_set_auth_cookie(1);
+
+        // and this:
+        $user = wp_signon(
+            [
+                'user_login' => $request['login'],
+                'user_password' => $request['password'],
+                'remember' => true,
+            ],
+            false
+        );
+        return $user;
+    }
+
     public static function cps_procurement_get_all_requisitions() {
         $args = array (
             'post_type' => 'requisitions',
@@ -185,19 +202,24 @@ class Custom_Api {
     }
 
     public static function cps_custom_procurement_register_api_endpoints() {
+        register_rest_route( 'custom_procurement/v1', '/login', array(
+            'methods' => WP_REST_Server::CREATABLE,
+            'callback' => __CLASS__ . '::cps_procurement_login_user',
+            'permission_callback' => '__return_true'
+        ) );
         register_rest_route( 'custom_procurement/v1', '/requisitions', array(
           'methods' => 'GET',
-          'callback' => __CLASS__ . '::procurement_get_all_requisitions',
-          'permission_callback' => '__return_true'
+          'callback' => __CLASS__ . '::cps_procurement_get_all_requisitions',
+          //'permission_callback' => '__return_true'
         ) );
         register_rest_route( 'custom_procurement/v1', '/requisitions/(?P<requisition_id>\d+)', array(
           'methods' => 'GET',
-          'callback' => __CLASS__ . '::procurement_by_requisition_id',
+          'callback' => __CLASS__ . '::cps_procurement_by_requisition_id',
           'permission_callback' => '__return_true'
         ) );
         register_rest_route( 'custom_procurement/v1', '/requisitions/status=(?P<status>[a-zA-Z-]+)', array(
             'methods' => 'GET',
-            'callback' => __CLASS__ . '::procurement_requisitions_by_status',
+            'callback' => __CLASS__ . '::cps_procurement_requisitions_by_status',
             'permission_callback' => '__return_true'
         ) );
     }
