@@ -202,7 +202,7 @@ class Custom_Api {
     }
 
     public static function cps_custom_procurement_register_api_endpoints() {
-        register_rest_route( 'custom_procurement/v1', '/login', array(
+        register_rest_route( 'custom_procurement/v1', '/user', array(
             'methods' => WP_REST_Server::CREATABLE,
             'callback' => __CLASS__ . '::cps_procurement_login_user',
             'permission_callback' => '__return_true'
@@ -210,7 +210,7 @@ class Custom_Api {
         register_rest_route( 'custom_procurement/v1', '/requisitions', array(
           'methods' => 'GET',
           'callback' => __CLASS__ . '::cps_procurement_get_all_requisitions',
-          //'permission_callback' => '__return_true'
+        'permission_callback' => '__return_true'
         ) );
         register_rest_route( 'custom_procurement/v1', '/requisitions/(?P<requisition_id>\d+)', array(
           'methods' => 'GET',
